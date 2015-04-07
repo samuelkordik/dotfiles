@@ -7,12 +7,10 @@ PATHDIRS=(
 /opt/local/etc
 /opt/local/bin
 /opt/local/sbin
-$HOME/Scripts
+/Users/samuel/.rbenv/versions/2.1.0/bin
 $HOME/.gem/ruby/1.8/bin
-$HOME/bin
-/usr/bin/pear/bin)
+$HOME/bin)
 path=($path $dir)
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-export PATH=/Users/samuel/Scripts:$PATH
 mpear="/Applications/MAMP/bin/php/php5.4.4/bin/pear"
-export PATH=/usr/local/php5/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/samuel/.rvm/bin
+export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH=/usr/bin/python:/usr/local/php5/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/samuel/.rvm/bin:/Users/samuel/pear/bin:$HOME/Scripts:/usr/bin/pear/bin:/Users/samuel/pear/share/pear:$PATH
